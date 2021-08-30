@@ -1325,6 +1325,6 @@ a:visited {
 	color:#cc6600 !important;
 }
 
-#h1 {
-	color: black !important;
+#menu h1 {
+	display: none;
 }
