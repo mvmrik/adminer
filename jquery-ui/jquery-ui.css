@@ -1339,6 +1339,6 @@ a:visited {
 	border: none;
 }
 
-#table th .column .text:first-child {
+#table th .column .text:not(.jsonly) {
 	display: none;
 }
