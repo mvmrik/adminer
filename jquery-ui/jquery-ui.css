@@ -1342,3 +1342,7 @@ a:visited {
 #table th .column .text:not(.jsonly) {
 	display: none;
 }
+
+#table th .column .text .jsonly {
+	display: inline-block !important; 
+}
