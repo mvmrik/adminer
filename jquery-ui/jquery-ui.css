@@ -1339,10 +1339,10 @@ a:visited {
 	border: none;
 }
 
-#table th .column .text:not(.jsonly) {
+#table th .column .text {
 	display: none;
 }
 
-#table th .column .text .jsonly {
+#table th .column .text.jsonly {
 	display: inline-block !important; 
 }
