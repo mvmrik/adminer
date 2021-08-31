@@ -16,6 +16,7 @@ function adminer_object() {
         new AdminerDumpZip(),
         new AdminerEditCalendar(),
         new AdminerSqlLog(),
+        new AdminerDisplayForeignKeyName(),
     );
     
     /* It is possible to combine customization and plugins:
