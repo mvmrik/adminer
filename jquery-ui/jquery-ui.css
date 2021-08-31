@@ -1328,3 +1328,16 @@ a:visited {
 #menu h1 {
 	display: none;
 }
+
+#table th .column {
+	display: block;
+	float: right;
+	position: static;
+	margin: 0;
+	background: transparent;
+	border: none;
+}
+
+#table th .column .text:first-child {
+	display: none;
+}
