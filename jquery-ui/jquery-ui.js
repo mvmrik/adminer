@@ -18704,3 +18704,19 @@ var widgetsTooltip = $.ui.tooltip;
 
 
 }));
+
+
+
+/* CUSTOM CODE */
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    const siteUrl = window.location.origin;
+	
+	if (siteUrl.includes('test')) {
+		siteColor = 'site-color-test';
+	}else{
+		siteColor = 'site-color-000';
+	}
+	
+	document.querySelector('h2').classList.add(`${siteColor}`);
+});
