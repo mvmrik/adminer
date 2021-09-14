@@ -18719,4 +18719,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	}
 	
 	document.querySelector('h2').classList.add(`${siteColor}`);
+
+	const fieldset = document.createElement('fieldset');
+	fieldset.addEventListener('click', ()=>{
+		location.reload();
+	});
+
+	Object.assign(fieldset, {
+		innerText: "Refresh",
+		className: "db-refresh"
+	});
+
+	document.querySelector('body').appendChild(fieldset);
+
+
+
 });

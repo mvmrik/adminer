@@ -15,7 +15,6 @@ function adminer_object() {
         // specify enabled plugins here
         new AdminerDumpZip(),
         new AdminerEditCalendar(),
-        new AdminerSqlLog(),
         new AdminerDisplayForeignKeyName(),
     );
     

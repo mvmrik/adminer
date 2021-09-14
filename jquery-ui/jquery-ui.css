@@ -1347,8 +1347,6 @@ a:visited {
 	display: inline-block !important; 
 }
 
-
-
 .site-color-test {
 	background-color: #c0c0c0 !important;
 }
@@ -1357,4 +1355,20 @@ a:visited {
 }
 .site-color-111 {
 	background-color: #e91e63 !important;
+}
+
+.footer {
+	display: inline-block;
+    	left: 0;
+}
+
+.db-refresh {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+    right: 1em;
+    bottom: 0.5em;
+    color: #cc6600;
+    font-weight: bold;
+    cursor: pointer;
 }
