@@ -18714,6 +18714,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	
 	if (siteUrl.includes('test')) {
 		siteColor = 'site-color-test';
+	}else if (siteUrl.includes('adm.')) {
+		siteColor = 'site-color-111';
 	}else{
 		siteColor = 'site-color-000';
 	}
