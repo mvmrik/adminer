@@ -1372,3 +1372,14 @@ a:visited {
     font-weight: bold;
     cursor: pointer;
 }
+
+#menu li a[href*="&select="] {
+    background: none !important;
+    height: auto !important;
+    overflow: inherit !important;
+	padding: 1px 0 0 5px !important;
+}
+
+a.select {
+    display: none !important;
+}

@@ -18734,6 +18734,18 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 	document.querySelector('body').appendChild(fieldset);
 
+	const urlTableLinks = document.querySelectorAll('table tbody th a');
+	for (const changeLink of urlTableLinks) {
+		const urlLink = changeLink.href;
+		const newLink = urlLink.replace('table=', 'select=');
+		changeLink.href = newLink;
+	}
 
-
+	const urlSidebarLinks = document.querySelectorAll('#tables li a.structure');
+	console.log(urlSidebarLinks);
+	for (const changeSidebarLink of urlSidebarLinks) {
+		const urlSidebarLink = changeSidebarLink.href;
+		const newSidebarLink = urlSidebarLink.replace('table=', 'select=');
+		changeSidebarLink.href = newSidebarLink;
+	}
 });
