@@ -18,6 +18,7 @@ function adminer_object() {
         new AdminerDisplayForeignKeyName(),
         new FasterTablesFilter,
         new AdminerReadableDates,
+        new searchAutocomplete,
         new CustomCode
     );
     
