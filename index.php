@@ -16,6 +16,8 @@ function adminer_object() {
         new AdminerDumpZip(),
         new AdminerEditCalendar(),
         new AdminerDisplayForeignKeyName(),
+        new FasterTablesFilter,
+        new CustomCode
     );
     
     /* It is possible to combine customization and plugins:

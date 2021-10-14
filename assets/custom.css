@@ -1,0 +1,71 @@
+#menu #tables {
+    font-size: 100% !important;
+}
+
+#menu {
+    top: 0;
+	margin: 0;
+}
+
+a:visited {
+	color:#cc6600 !important;
+}
+
+#menu h1 {
+	display: none;
+}
+
+#table th .column {
+	display: block;
+	float: right;
+	position: static;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: none;
+}
+
+#table th .column .text {
+	display: none;
+}
+
+#table th .column .text.jsonly {
+	display: inline-block !important; 
+}
+
+.site-color-test {
+	background-color: #c0c0c0 !important;
+}
+.site-color-000 {
+	background-color: #e91e63 !important;
+}
+.site-color-111 {
+	background-color: #03a9f4 !important;
+}
+
+.footer {
+	display: inline-block;
+    	left: 0;
+}
+
+.db-refresh {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+    right: 1em;
+    bottom: 0.5em;
+    color: #cc6600;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu li a[href*="&select="] {
+    background: none !important;
+    height: auto !important;
+    overflow: inherit !important;
+	padding: 1px 0 0 5px !important;
+}
+
+a.select {
+    display: none !important;
+}
