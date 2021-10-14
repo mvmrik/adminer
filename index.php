@@ -17,6 +17,7 @@ function adminer_object() {
         new AdminerEditCalendar(),
         new AdminerDisplayForeignKeyName(),
         new FasterTablesFilter,
+        new AdminerReadableDates,
         new CustomCode
     );
     
