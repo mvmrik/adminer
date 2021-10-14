@@ -42,7 +42,7 @@ class FasterTablesFilter {
 				aSelect.text = langSelect;
 				aSelect.className = "select";
 				var aName = aProto.cloneNode();
-				aName.href = hMe+"table="+item;
+				aName.href = hMe+"select="+item;
 				aName.text = item;
 				li.appendChild(aSelect);
 				li.appendChild(space.cloneNode());
