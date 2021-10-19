@@ -19,6 +19,7 @@ function adminer_object() {
         new FasterTablesFilter,
         new AdminerReadableDates,
         new searchAutocomplete,
+        new AdminerSuggestTableField,
         new CustomCode
     );
     
