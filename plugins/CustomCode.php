@@ -15,8 +15,8 @@ class CustomCode
 	function head()
 	{ ?>
 
-<script src='/assets/custom.js' <?php echo nonce(); ?>></script>
-<link rel="stylesheet" type="text/css" href="assets/custom.css">
+		<script src='assets/custom.js' <?php echo nonce(); ?>></script>
+		<link rel="stylesheet" type="text/css" href="assets/custom.css">
 
 <?php return true;
 	}
